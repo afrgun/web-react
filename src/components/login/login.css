@@ -1,0 +1,34 @@
+.Login{
+    background: #fafafa;
+    height: 100vh;
+}
+
+.container{
+	height: 100%;
+}
+
+.Login h1{
+	font-size: 1.1rem;
+}
+
+.Login form{
+	width: 90%;
+}
+
+.Login__input{
+	width: 100%;
+	margin-bottom: 10px !important;
+}
+
+.Login__signin{
+	background-color: #000000 !important;
+	padding: 0 40px !important;
+}
+
+.Login__facebook,
+.Login__gmail{
+	width: 75%;
+	margin: 10px 0px !important;
+}
+
+.Login__facebook{ margin-top: 50px !important; }

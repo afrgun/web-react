@@ -1,0 +1,52 @@
+.Search{ 
+	width: 85%;
+}
+
+.Search__input{
+	border-radius: 40px !important;
+}
+
+.header-search{
+	padding: 10px;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 9;
+}
+
+.wrapper-tab{
+	position: fixed !important;
+	bottom: 0;
+}
+
+.horizontal-menu{
+	position: sticky;
+	top: 75px;
+	background: #fff;
+	z-index: 9;
+}
+
+.menu-item-wrapper{
+	padding: 0px;
+}
+
+.menu-item{
+	box-shadow: none !important;
+	border: none;
+}
+
+.media-cat{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.media-card{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.card-item{
+	margin: 0 20px 10px;
+}

@@ -1,0 +1,29 @@
+.favorite{
+	position: absolute;
+	right: 40px;
+	top: 20px;
+}
+
+.wrapContent{
+	position: relative;
+}
+
+.title{
+	flex-grow: 1;
+}
+
+.price{
+	text-align: right;
+	padding: 20px;
+	width: 50%;
+    display: inline-block;
+}
+
+.button-buy{
+	padding: 5px 20px !important;
+    background: #cccccc !important;
+    margin-left: 20px !important;
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+}

@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Routes from './Routes';
+import { createStore } from 'redux';
+import reducer from './components/reducer';
+import configureStore from './store/configureStore';
+import { AppContainer } from 'react-hot-loader';
+
+const store = configureStore;
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  	<AppContainer>
+		<Routes store={store}/>
+	</AppContainer>,
   document.getElementById('root')
 );
 
